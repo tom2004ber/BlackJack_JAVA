@@ -1,0 +1,47 @@
+
+
+.testo-casino {
+    font-family: 'Cinzel', serif;
+    font-weight: 400; /* Peso standard del font */
+    letter-spacing: 1px; /* Aumenta leggermente lo spazio tra le lettere */
+    color: #E0E0E0; /* Un grigio chiaro per testo secondario */
+}
+
+
+.titolo-oro {
+    font-family: 'Cinzel', serif;
+    font-weight: 700; /* Grassetto per risaltare */
+    font-size: 2.5em; /* Dimensione del font (modificabile) */
+    letter-spacing: 2px;
+
+    /* Effetto dorato */
+    color: #FFD700; /* Colore oro principale */
+
+    /* Ombra del testo per un effetto 3D/inciso */
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.7), /* Ombra scura principale */
+        0 0 10px #B8860B; /* Leggero bagliore dorato scuro */
+}
+
+/*
+ * CLASSE PER BOTTONI O ELEMENTI INTERATTIVI
+ * Un testo più semplice ma sempre in tema.
+ */
+.testo-bottone-casino {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #2c2c2c; /* Testo scuro per contrasto su bottoni chiari */
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); /* Leggera ombra chiara */
+}
+
+.play-button:hover {
+    -fx-background-color: #fff; /* Cambia colore al passaggio del mouse */
+}
+
+.background-pic {
+    -fx-background-image: url("vegasview.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
