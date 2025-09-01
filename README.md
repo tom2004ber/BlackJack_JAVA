@@ -1,3 +1,3 @@
 # BlackJack_JAVA
-progetto in java, gioco BlackJack 
-prova push da pc lorenzo
+Questo progetto implementa una versione del gioco Blackjack in Java.
+L’obiettivo è realizzare un programma che simuli una partita tra il giocatore e il banco, seguendo le regole classiche del gioco.
